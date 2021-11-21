@@ -1,6 +1,6 @@
 # Testing API Project
 
-This is API testing Project that uses Javascript and Cypress framework. The purpose of API testing is to check functionality, reability, performance and securuty of programming interfaces.
+This is API testing Project that uses Javascript and [Cypress](https://www.cypress.io/) framework. The purpose of API testing is to check functionality, reability, performance and securuty of programming interfaces.
 
 ## Assignment
 

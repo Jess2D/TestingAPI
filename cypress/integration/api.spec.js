@@ -35,7 +35,7 @@ describe('Testing API with Cypress', () => {
 	})
 
 	/**
-	 * @description Represents the third Acceptance Criteria:
+	 * @description Represents the third Acceptance Criteria
 	 */
 
 	it('The Promotions element with Name = *Gallery* has a Description that contains the text *Good position in category*', () => {

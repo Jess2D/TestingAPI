@@ -33,4 +33,19 @@ describe('Testing API with Cypress', () => {
 		).as('Categories')
 		cy.get('@Categories').its('body').should('include', { CanRelist: true })
 	})
+
+	/**
+	 * @description Represents the third Acceptance Criteria:
+	 */
+
+	it('The Promotions element with Name = *Gallery* has a Description that contains the text *Good position in category*', () => {
+		cy.request(
+			'https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=true'
+		).as('Categories')
+		cy.get('@Categories')
+			.its('body')
+			.its('Promotions')
+			.then((list) => Cypress._.map(list, 'Name', 'Description'))
+			.should('include', 'Gallery', 'Good position in category')
+	})
 })

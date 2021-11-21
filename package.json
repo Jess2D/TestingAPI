@@ -1,0 +1,31 @@
+{
+  "name": "testingapi",
+  "version": "1.0.0",
+  "description": "This is an automated testing project using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jess2D/TestingAPI.git"
+  },
+  "keywords": [
+    "cypress",
+    "automated",
+    "tests",
+    "api",
+    "qa"
+  ],
+  "author": "Jessica Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jess2D/TestingAPI/issues"
+  },
+  "homepage": "https://github.com/Jess2D/TestingAPI#readme",
+  "dependencies": {
+    "cypress": "^9.0.0",
+    "prettier": "^2.4.1"
+  }
+}

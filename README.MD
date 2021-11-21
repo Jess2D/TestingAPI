@@ -1,6 +1,6 @@
 # Testing API Project :rocket:
 
-This is API testing Project that uses Javascript and [Cypress](https://www.cypress.io/) framework. The purpose of API testing is to check functionality, reability, performance and securuty of programming interfaces.
+This API testing Project uses Javascript and [Cypress](https://www.cypress.io/). The purpose for this is to check functionality, reability, performance and securuty of programming interfaces.
 
 ## Assignment
 
@@ -15,7 +15,7 @@ Perform an automated test given the URL of an API and acceptance criteria.
 
 One of the biggest [SDLC](shorturl.at/apOR5) questions is how to test APIs and prepare data to interact with third-party servers.
 
-Cypress provides the functionality to make an HTTP request. Using Cypress’s Request() method, we can validate GET, POST, PUT, and DELETE API Endpoints.
+Cypress provides, among other things, the functionality to make a HTTP request. Using cy.request(), we can make an API call, to then validate GET, POST, PUT, and DELETE endpoint responses.
 
 
 ## Usage requirements
